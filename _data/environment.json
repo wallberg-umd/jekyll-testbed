@@ -1,0 +1,26 @@
+{
+   "services":[
+       {
+	   "key": "libi",
+           "title": "Libi",
+	   "aliases": ["intranet", "staff site"],
+	   "server": "libi.lib.umd.edu"
+       },
+       {
+           "key": "website",
+           "title": "Libraries' Website",
+	   "server": "www.lib.umd.edu"
+       },
+       {
+	   "key": "cms",
+	   "title": "Hippo CMS",
+	   "server": "www.lib.umd.edu",
+       },
+       {
+	   "key": "drum",
+	   "title": "Digital Repository at the University of Maryland (DRUM)",
+	   "aliases": ["drum","institutional repository","repository"],
+	   "server": "drum.lib.umd.edu"
+       }
+   ]
+}
