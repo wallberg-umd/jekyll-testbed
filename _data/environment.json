@@ -1,5 +1,5 @@
 {
-   "services":[
+   "services": [
        {
 	   "key": "libi",
            "title": "Libi",
@@ -21,6 +21,21 @@
 	   "title": "Digital Repository at the University of Maryland (DRUM)",
 	   "aliases": ["drum","institutional repository","repository"],
 	   "server": "drum.lib.umd.edu"
+       }
+   ],
+
+   "servers": [
+       {
+	   "key": "libi.lib.umd.edu",
+	   "ip": ["1.1.1.1"]
+       },
+       {
+	   "key": "www.lib.umd.edu",
+	   "ip": ["1.1.1.2","1.1.1.3"]
+       },
+       {
+	   "key": "drum.lib.umd.edu",
+	   "ip": ["1.1.1.4"]
        }
    ]
 }
